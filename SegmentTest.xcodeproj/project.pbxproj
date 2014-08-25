@@ -21,6 +21,7 @@
 		11690E6F19AB524C0013F30A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11690E5119AB524B0013F30A /* UIKit.framework */; };
 		11690E7719AB524D0013F30A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11690E7519AB524D0013F30A /* InfoPlist.strings */; };
 		11690E7919AB524D0013F30A /* SegmentTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11690E7819AB524D0013F30A /* SegmentTestTests.m */; };
+		11690E8619AB54710013F30A /* STCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11690E8519AB54710013F30A /* STCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		11690E7419AB524D0013F30A /* SegmentTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegmentTestTests-Info.plist"; sourceTree = "<group>"; };
 		11690E7619AB524D0013F30A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11690E7819AB524D0013F30A /* SegmentTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentTestTests.m; sourceTree = "<group>"; };
+		11690E8419AB54710013F30A /* STCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCell.h; sourceTree = "<group>"; };
+		11690E8519AB54710013F30A /* STCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				11690E6319AB524C0013F30A /* STViewController.m */,
 				11690E6519AB524C0013F30A /* Images.xcassets */,
 				11690E5419AB524B0013F30A /* Supporting Files */,
+				11690E8419AB54710013F30A /* STCell.h */,
+				11690E8519AB54710013F30A /* STCell.m */,
 			);
 			path = SegmentTest;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				11690E6419AB524C0013F30A /* STViewController.m in Sources */,
 				11690E5A19AB524B0013F30A /* main.m in Sources */,
+				11690E8619AB54710013F30A /* STCell.m in Sources */,
 				11690E5E19AB524B0013F30A /* STAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
